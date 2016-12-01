@@ -10,7 +10,7 @@ class USElections(db.Model):
     fips = Column(String)
     cand = Column(String)
     st = Column(String)
-    votos = Column(BigInteger)
+    votes = Column(BigInteger)
     total_votes = Column(BigInteger)
     lead = Column(String)
 
